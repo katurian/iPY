@@ -28,7 +28,7 @@ def createJSON(listobj):
         json.dump(listobj, outfile)
 
 
-createJSON(getLogIPs('access.log'))
+#createJSON(getLogIPs('access.log'))
 
     
     
