@@ -30,10 +30,7 @@ def createJSON(listobj):
 
 #createJSON(getLogIPs('access.log'))
 
-    
-    
-
-                       
+                      
           
 
           
