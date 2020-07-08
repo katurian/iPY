@@ -1,10 +1,4 @@
-import ipinfo
-import re
-import os
-import json
-
-access_token = '71c8a7a4a3d410'
-handler = ipinfo.getHandler(access_token)
+from setup import *
 
 def getLogIPs(logname):
         with open(logname, 'r') as file:
